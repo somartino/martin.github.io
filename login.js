@@ -136,7 +136,7 @@ function validate(){
 var password = document.getElementById("password").value;
 var pwh=SHA1(password);
 if (pwh == "f89eac3a6a8aa4d770bee565212a7f7998b44b14"){
-window.location = "page.html"; // Redirecting to other page.
+window.location = "/page.html/"; // Redirecting to other page.
 return false;
 }
 else{
